@@ -1,4 +1,114 @@
-<header>
+<header><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prismora Films Creations</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #ffffff;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    nav {
+      background-color: #2a2a2a;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #ffffff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .highlight {
+      color: #ff5c5c;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 12px;
+    }
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 1rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Prismora Films Creations</h1>
+    <p>Capturing stories with soul.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At <span class="highlight">Prismora Films Creations</span>, we turn visions into cinematic experiences. Specializing in wedding films, music videos, and brand storytelling, our team captures the emotion, magic, and soul behind every frame.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Cinematic Wedding Films</li>
+      <li>Pre-Wedding Shoots</li>
+      <li>Music Videos</li>
+      <li>Event Coverage</li>
+      <li>Brand Stories & Ads</li>
+      <li>Short Films</li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <p>Some of our favorite frames...</p>
+    <!-- Add your image URLs below -->
+    <img src="your-image1.jpg" alt="Film still">
+    <img src="your-image2.jpg" alt="Wedding shoot">
+    <img src="your-image3.jpg" alt="Behind the scenes">
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: prismorafilms@gmail.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>Follow us on <a href="https://www.facebook.com/yourpage" target="_blank">Facebook</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Prismora Films Creations. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
 
 <!--
   <<< Author notes: Course header >>>
